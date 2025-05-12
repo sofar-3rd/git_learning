@@ -30,5 +30,12 @@ vector<int> quicksort(vector<int>& arr, int low, int high) {
 }
 
 int main() {
-
+    // test
+    vector<int> arr = {10, 7, 8, 9, 1, 5};
+    int n = arr.size();
+    vector<int> res = quicksort(arr, 0, n - 1);
+    cout << "Sorted array: ";
+    for (auto & num : res){
+        cout << num << " ";
+    }
 }
